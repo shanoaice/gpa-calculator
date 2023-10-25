@@ -26,8 +26,15 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@iconify-json/fluent", "npm:1.1.39"],\
           ["@unocss/core", "npm:0.57.1"],\
+          ["@unocss/preset-attributify", "npm:0.57.1"],\
+          ["@unocss/preset-icons", "npm:0.57.1"],\
+          ["@unocss/reset", "npm:0.57.1"],\
+          ["@unocss/transformer-directives", "npm:0.57.1"],\
+          ["@unocss/transformer-variant-group", "npm:0.57.1"],\
           ["@vitejs/plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:4.4.0"],\
+          ["autoprefixer", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16"],\
           ["daisyui", "npm:3.9.3"],\
           ["eslint", "npm:8.52.0"],\
           ["eslint-config-prettier", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:9.0.0"],\
@@ -35,6 +42,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:5.0.1"],\
           ["eslint-plugin-prettier-vue", "npm:5.0.0"],\
           ["eslint-plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:9.18.0"],\
+          ["nanoid", "npm:5.0.2"],\
           ["postcss-html", "npm:1.5.0"],\
           ["prettier", "npm:3.0.3"],\
           ["stylelint", "npm:15.11.0"],\
@@ -476,7 +484,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@eslint/eslintrc", "npm:2.1.2"],\
           ["ajv", "npm:6.12.6"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["espree", "npm:9.6.1"],\
           ["globals", "npm:13.23.0"],\
           ["ignore", "npm:5.2.4"],\
@@ -503,7 +511,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@humanwhocodes/config-array", "npm:0.11.13"],\
           ["@humanwhocodes/object-schema", "npm:2.0.1"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["minimatch", "npm:3.1.2"]\
         ],\
         "linkType": "HARD"\
@@ -527,6 +535,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@iconify-json/fluent", [\
+      ["npm:1.1.39", {\
+        "packageLocation": "./.yarn/cache/@iconify-json-fluent-npm-1.1.39-7ac5693531-a995be4bf3.zip/node_modules/@iconify-json/fluent/",\
+        "packageDependencies": [\
+          ["@iconify-json/fluent", "npm:1.1.39"],\
+          ["@iconify/types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@iconify/types", [\
       ["npm:2.0.0", {\
         "packageLocation": "./.yarn/cache/@iconify-types-npm-2.0.0-faa2398199-65a3be4350.zip/node_modules/@iconify/types/",\
@@ -544,7 +562,7 @@ const RAW_RUNTIME_STATE =
           ["@antfu/install-pkg", "npm:0.1.1"],\
           ["@antfu/utils", "npm:0.7.6"],\
           ["@iconify/types", "npm:2.0.0"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["kolorist", "npm:1.8.0"],\
           ["local-pkg", "npm:0.4.3"]\
         ],\
@@ -1294,7 +1312,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/agent-base-npm-6.0.2-428f325a93-dc4f757e40.zip/node_modules/agent-base/",\
         "packageDependencies": [\
           ["agent-base", "npm:6.0.2"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"]\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1489,6 +1507,25 @@ const RAW_RUNTIME_STATE =
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.0.0"],\
           ["postcss", "npm:8.4.31"],\
+          ["postcss-value-parser", "npm:4.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/postcss",\
+          "postcss"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16", {\
+        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-e226e965e5/0/cache/autoprefixer-npm-10.4.16-e5a0ee424d-e00256e754.zip/node_modules/autoprefixer/",\
+        "packageDependencies": [\
+          ["autoprefixer", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16"],\
+          ["@types/postcss", null],\
+          ["browserslist", "npm:4.22.1"],\
+          ["caniuse-lite", "npm:1.0.30001554"],\
+          ["fraction.js", "npm:4.3.7"],\
+          ["normalize-range", "npm:0.1.2"],\
+          ["picocolors", "npm:1.0.0"],\
+          ["postcss", null],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -1960,10 +1997,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-218613e218/0/cache/debug-npm-4.3.4-4513954577-cedbec4529.zip/node_modules/debug/",\
+      ["virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-b896273439/0/cache/debug-npm-4.3.4-4513954577-cedbec4529.zip/node_modules/debug/",\
         "packageDependencies": [\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["@types/supports-color", null],\
           ["ms", "npm:2.1.2"],\
           ["supports-color", null]\
@@ -2314,7 +2351,7 @@ const RAW_RUNTIME_STATE =
           ["ajv", "npm:6.12.6"],\
           ["chalk", "npm:4.1.2"],\
           ["cross-spawn", "npm:7.0.3"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["doctrine", "npm:3.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["eslint-scope", "npm:7.2.2"],\
@@ -2936,8 +2973,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["gpa-calculator", "workspace:."],\
+          ["@iconify-json/fluent", "npm:1.1.39"],\
           ["@unocss/core", "npm:0.57.1"],\
+          ["@unocss/preset-attributify", "npm:0.57.1"],\
+          ["@unocss/preset-icons", "npm:0.57.1"],\
+          ["@unocss/reset", "npm:0.57.1"],\
+          ["@unocss/transformer-directives", "npm:0.57.1"],\
+          ["@unocss/transformer-variant-group", "npm:0.57.1"],\
           ["@vitejs/plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:4.4.0"],\
+          ["autoprefixer", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16"],\
           ["daisyui", "npm:3.9.3"],\
           ["eslint", "npm:8.52.0"],\
           ["eslint-config-prettier", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:9.0.0"],\
@@ -2945,6 +2989,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:5.0.1"],\
           ["eslint-plugin-prettier-vue", "npm:5.0.0"],\
           ["eslint-plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:9.18.0"],\
+          ["nanoid", "npm:5.0.2"],\
           ["postcss-html", "npm:1.5.0"],\
           ["prettier", "npm:3.0.3"],\
           ["stylelint", "npm:15.11.0"],\
@@ -3079,7 +3124,7 @@ const RAW_RUNTIME_STATE =
           ["http-proxy-agent", "npm:5.0.0"],\
           ["@tootallnate/once", "npm:2.0.0"],\
           ["agent-base", "npm:6.0.2"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"]\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3090,7 +3135,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["https-proxy-agent", "npm:5.0.1"],\
           ["agent-base", "npm:6.0.2"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"]\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3945,6 +3990,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/nanoid-npm-3.3.6-e6d6ae7e71-606b355960.zip/node_modules/nanoid/",\
         "packageDependencies": [\
           ["nanoid", "npm:3.3.6"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.0.2", {\
+        "packageLocation": "./.yarn/cache/nanoid-npm-5.0.2-2802fdb2f8-dbda0fdef7.zip/node_modules/nanoid/",\
+        "packageDependencies": [\
+          ["nanoid", "npm:5.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4899,7 +4951,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["socks-proxy-agent", "npm:7.0.0"],\
           ["agent-base", "npm:6.0.2"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["socks", "npm:2.7.1"]\
         ],\
         "linkType": "HARD"\
@@ -5072,7 +5124,7 @@ const RAW_RUNTIME_STATE =
           ["cosmiconfig", "virtual:6dc193bb48ad7dd5bded69ae8f2a54692a9e2da8edb6443a6cae8c92ea313ba917c85267e13dbc9c5c66d283013a5745d757001687aaa0fc0f1e171a285f15e7#npm:8.3.6"],\
           ["css-functions-list", "npm:3.2.1"],\
           ["css-tree", "npm:2.3.1"],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["fast-glob", "npm:3.3.1"],\
           ["fastest-levenshtein", "npm:1.0.16"],\
           ["file-entry-cache", "npm:7.0.1"],\
@@ -5756,7 +5808,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["vue-eslint-parser", "virtual:f65dee431e7fdc5bc36ad53efdbb34b5cdb9e3ab7cc03f652f5b082ffa1b6f1f8f15e3f342c0faed614f11a16b541f6c1ceed055f6752456f87c850ecd9d2df8#npm:9.3.2"],\
           ["@types/eslint", null],\
-          ["debug", "virtual:428f325a939c2653ad822eb3d75efb02ac311523dd0d4f9645afc39ea00bd86eceac35a9d59c9b6977d76b670a4ef0ae057ea572338a44729aa592711a8c05a3#npm:4.3.4"],\
+          ["debug", "virtual:1bc620f3a7fe2264fc80ab744a9e68aab0e10b0ff2d845a1e72b67ed3caf49d2341c1b7d7fe300db7c3b47017eb27897b64050c384343e02e2c184bebaa1d784#npm:4.3.4"],\
           ["eslint", "npm:8.52.0"],\
           ["eslint-scope", "npm:7.2.2"],\
           ["eslint-visitor-keys", "npm:3.4.3"],\

@@ -357,7 +357,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/types@npm:^2.0.0":
+"@iconify-json/fluent@npm:^1.1.39":
+  version: 1.1.39
+  resolution: "@iconify-json/fluent@npm:1.1.39"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: a995be4bf3380a87739534f13fcf95200e4b45291247d74f6706cdf699255544411a4b862b5eed0036717dae1c84a1a4e0376cdfc9f76a6a31af93bbe19e2c4e
+  languageName: node
+  linkType: hard
+
+"@iconify/types@npm:*, @iconify/types@npm:^2.0.0":
   version: 2.0.0
   resolution: "@iconify/types@npm:2.0.0"
   checksum: 65a3be43500c7ccacf360e136d00e1717f050b7b91da644e94370256ac66f582d59212bdb30d00788aab4fc078262e91c95b805d1808d654b72f6d2072a7e4b2
@@ -642,7 +651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/preset-attributify@npm:0.57.1":
+"@unocss/preset-attributify@npm:0.57.1, @unocss/preset-attributify@npm:^0.57.1":
   version: 0.57.1
   resolution: "@unocss/preset-attributify@npm:0.57.1"
   dependencies:
@@ -651,7 +660,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/preset-icons@npm:0.57.1":
+"@unocss/preset-icons@npm:0.57.1, @unocss/preset-icons@npm:^0.57.1":
   version: 0.57.1
   resolution: "@unocss/preset-icons@npm:0.57.1"
   dependencies:
@@ -725,7 +734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/reset@npm:0.57.1":
+"@unocss/reset@npm:0.57.1, @unocss/reset@npm:^0.57.1":
   version: 0.57.1
   resolution: "@unocss/reset@npm:0.57.1"
   checksum: 99f8840e26564470a5ccb6a8f4279c8545352448247e488f8ec6a87adc828b6f80a274b322fd6e25aba6dbfd9a6d7a1a628b92648c6ddff6b8eee78782a2f6dc
@@ -776,7 +785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/transformer-directives@npm:0.57.1":
+"@unocss/transformer-directives@npm:0.57.1, @unocss/transformer-directives@npm:^0.57.1":
   version: 0.57.1
   resolution: "@unocss/transformer-directives@npm:0.57.1"
   dependencies:
@@ -787,7 +796,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@unocss/transformer-variant-group@npm:0.57.1":
+"@unocss/transformer-variant-group@npm:0.57.1, @unocss/transformer-variant-group@npm:^0.57.1":
   version: 0.57.1
   resolution: "@unocss/transformer-variant-group@npm:0.57.1"
   dependencies:
@@ -1123,7 +1132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.15":
+"autoprefixer@npm:^10.4.15, autoprefixer@npm:^10.4.16":
   version: 10.4.16
   resolution: "autoprefixer@npm:10.4.16"
   dependencies:
@@ -2425,8 +2434,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gpa-calculator@workspace:."
   dependencies:
+    "@iconify-json/fluent": "npm:^1.1.39"
     "@unocss/core": "npm:^0.57.1"
+    "@unocss/preset-attributify": "npm:^0.57.1"
+    "@unocss/preset-icons": "npm:^0.57.1"
+    "@unocss/reset": "npm:^0.57.1"
+    "@unocss/transformer-directives": "npm:^0.57.1"
+    "@unocss/transformer-variant-group": "npm:^0.57.1"
     "@vitejs/plugin-vue": "npm:^4.2.3"
+    autoprefixer: "npm:^10.4.16"
     daisyui: "npm:^3.9.3"
     eslint: "npm:^8.52.0"
     eslint-config-prettier: "npm:^9.0.0"
@@ -2434,6 +2450,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.0.1"
     eslint-plugin-prettier-vue: "npm:^5.0.0"
     eslint-plugin-vue: "npm:^9.18.0"
+    nanoid: "npm:^5.0.2"
     postcss-html: "npm:^1.5.0"
     prettier: "npm:^3.0.3"
     stylelint: "npm:^15.11.0"
@@ -3313,6 +3330,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: 606b355960d0fcbe3d27924c4c52ef7d47d3b57208808ece73279420d91469b01ec1dce10fae512b6d4a8c5a5432b352b228336a8b2202a6ea68e67fa348e2ee
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^5.0.2":
+  version: 5.0.2
+  resolution: "nanoid@npm:5.0.2"
+  bin:
+    nanoid: bin/nanoid.js
+  checksum: dbda0fdef76bef4fb4f754a6e61aa28933cfbdb83d3a6b6ed6acfe351315340b2e6fe2a1ea1db8bbbfff4586ad00bd73daf953cfd2074d6c6bc88933f0e85c2c
   languageName: node
   linkType: hard
 
