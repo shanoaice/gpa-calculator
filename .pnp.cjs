@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@iconify-json/fluent", "npm:1.1.39"],\
+          ["@iconify/tailwind", "npm:0.1.3"],\
           ["@vitejs/plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:4.4.0"],\
           ["autoprefixer", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16"],\
           ["daisyui", "npm:3.9.3"],\
@@ -503,6 +504,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@iconify-json-fluent-npm-1.1.39-7ac5693531-a995be4bf3.zip/node_modules/@iconify-json/fluent/",\
         "packageDependencies": [\
           ["@iconify-json/fluent", "npm:1.1.39"],\
+          ["@iconify/types", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@iconify/tailwind", [\
+      ["npm:0.1.3", {\
+        "packageLocation": "./.yarn/cache/@iconify-tailwind-npm-0.1.3-e5cbe05382-ddb3e72216.zip/node_modules/@iconify/tailwind/",\
+        "packageDependencies": [\
+          ["@iconify/tailwind", "npm:0.1.3"],\
           ["@iconify/types", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -2479,6 +2490,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["gpa-calculator", "workspace:."],\
           ["@iconify-json/fluent", "npm:1.1.39"],\
+          ["@iconify/tailwind", "npm:0.1.3"],\
           ["@vitejs/plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:4.4.0"],\
           ["autoprefixer", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16"],\
           ["daisyui", "npm:3.9.3"],\
