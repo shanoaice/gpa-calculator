@@ -1,0 +1,3 @@
+{
+    "extends": ["xo", "plugin:vue/vue3-recommended", "plugin:prettier-vue/recommended"]
+}
