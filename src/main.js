@@ -1,7 +1,6 @@
 import { createApp } from 'vue';
 
-import 'virtual:uno.css';
-import '@unocss/reset/tailwind-compat.css';
+import './index.css';
 
 import App from './App.vue';
 
