@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@iconify-json/fluent", "npm:1.1.39"],\
           ["@iconify/tailwind", "npm:0.1.3"],\
+          ["@tailwindcss/typography", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:0.5.10"],\
           ["@vitejs/plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:4.4.0"],\
           ["autoprefixer", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16"],\
           ["daisyui", "npm:3.9.3"],\
@@ -663,6 +664,32 @@ const RAW_RUNTIME_STATE =
           ["open", "npm:9.1.0"],\
           ["picocolors", "npm:1.0.0"],\
           ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/typography", [\
+      ["npm:0.5.10", {\
+        "packageLocation": "./.yarn/cache/@tailwindcss-typography-npm-0.5.10-2b2ed3a63b-0fa9c96bf0.zip/node_modules/@tailwindcss/typography/",\
+        "packageDependencies": [\
+          ["@tailwindcss/typography", "npm:0.5.10"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:0.5.10", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-91a1e8ac34/0/cache/@tailwindcss-typography-npm-0.5.10-2b2ed3a63b-0fa9c96bf0.zip/node_modules/@tailwindcss/typography/",\
+        "packageDependencies": [\
+          ["@tailwindcss/typography", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:0.5.10"],\
+          ["@types/tailwindcss", null],\
+          ["lodash.castarray", "npm:4.4.0"],\
+          ["lodash.isplainobject", "npm:4.0.6"],\
+          ["lodash.merge", "npm:4.6.2"],\
+          ["postcss-selector-parser", "npm:6.0.10"],\
+          ["tailwindcss", "npm:3.3.5"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss",\
+          "tailwindcss"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2491,6 +2518,7 @@ const RAW_RUNTIME_STATE =
           ["gpa-calculator", "workspace:."],\
           ["@iconify-json/fluent", "npm:1.1.39"],\
           ["@iconify/tailwind", "npm:0.1.3"],\
+          ["@tailwindcss/typography", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:0.5.10"],\
           ["@vitejs/plugin-vue", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:4.4.0"],\
           ["autoprefixer", "virtual:95e351153d41f6cdf922f7c18e36a63b5c540b53488e7825feb070b957775df8beb89273d774ce011eb9184df8a2fae79e3d22d3950d33ddaa919ddfb5c1e2d4#npm:10.4.16"],\
           ["daisyui", "npm:3.9.3"],\
@@ -3093,6 +3121,24 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-d8cbea072b.zip/node_modules/lodash/",\
         "packageDependencies": [\
           ["lodash", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.castarray", [\
+      ["npm:4.4.0", {\
+        "packageLocation": "./.yarn/cache/lodash.castarray-npm-4.4.0-f3706198e9-0bf523ad15.zip/node_modules/lodash.castarray/",\
+        "packageDependencies": [\
+          ["lodash.castarray", "npm:4.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.isplainobject", [\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/cache/lodash.isplainobject-npm-4.0.6-d73937742f-afd70b5c45.zip/node_modules/lodash.isplainobject/",\
+        "packageDependencies": [\
+          ["lodash.isplainobject", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3964,6 +4010,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss-selector-parser", [\
+      ["npm:6.0.10", {\
+        "packageLocation": "./.yarn/cache/postcss-selector-parser-npm-6.0.10-a4d7aaa270-a0b27c5e3f.zip/node_modules/postcss-selector-parser/",\
+        "packageDependencies": [\
+          ["postcss-selector-parser", "npm:6.0.10"],\
+          ["cssesc", "npm:3.0.0"],\
+          ["util-deprecate", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:6.0.13", {\
         "packageLocation": "./.yarn/cache/postcss-selector-parser-npm-6.0.13-f732d92326-51f099b27f.zip/node_modules/postcss-selector-parser/",\
         "packageDependencies": [\

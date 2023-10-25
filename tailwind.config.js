@@ -3,5 +3,9 @@ const { addDynamicIconSelectors } = require('@iconify/tailwind');
 
 export default {
 	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-	plugins: [require('daisyui'), addDynamicIconSelectors()],
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('daisyui'),
+		addDynamicIconSelectors(),
+	],
 };
