@@ -1,3 +1,10 @@
 {
-    "extends": ["xo", "plugin:vue/vue3-recommended", "plugin:prettier-vue/recommended"]
+	"extends": [
+		"xo",
+		"plugin:vue/vue3-recommended",
+		"plugin:prettier/recommended"
+	],
+	"rules": {
+		"capitalized-comments": "off"
+	}
 }
