@@ -94,7 +94,7 @@ function dismissData() {
 			<input
 				id="credit-input"
 				v-model="creditValue"
-				type="text"
+				type="number"
 				name="credits"
 				class="new-input"
 			/>
