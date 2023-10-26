@@ -24,7 +24,7 @@ function setData(id, subject, level, grade, credit) {
 </script>
 
 <template>
-	<div class="max-w-[75%] overflow-y-auto flex">
+	<div class="max-w-[75%] md:max-w-full overflow-y-auto flex">
 		<div>
 			<table class="table table-pin-rows w-full">
 				<colgroup>
