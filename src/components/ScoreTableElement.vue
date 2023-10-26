@@ -48,13 +48,15 @@ function dismissData() {
 <template>
 	<tr v-if="edit">
 		<td>
-			<input
-				id="subject-input"
-				v-model="subjectValue"
-				type="text"
-				name="subject"
-				class="new-input"
-			/>
+			<div class="flex">
+				<input
+					id="subject-input"
+					v-model="subjectValue"
+					type="text"
+					name="subject"
+					class="new-input flex-grow"
+				/>
+			</div>
 		</td>
 		<td>
 			<select
@@ -158,6 +160,7 @@ function dismissData() {
 
 <style scoped>
 .new-input {
+	width: fit-content;
 	@apply input input-bordered;
 }
 .new-input:focus {
